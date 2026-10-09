@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 //Importando o módulo do Proprietário
-const Proprietario = require("../models/Proprietario");
+const Proprietario = require("../Model/Proprietario");
 
 //Busca Proprietario (GET)
 router.get("/", async (req, res) => {

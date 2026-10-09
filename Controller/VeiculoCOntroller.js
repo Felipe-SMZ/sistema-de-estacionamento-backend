@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 //Importando o módulo do Veiculo
-const Veiculo = require("../models/Veiculo");
+const Veiculo = require("../Model/Veiculo");
 
 //Busca Veiculo (GET)
 router.get("/", async (req, res) => {
