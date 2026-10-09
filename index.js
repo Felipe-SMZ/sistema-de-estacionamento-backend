@@ -9,8 +9,8 @@ const app = express();
 const port = 8081;
 
 //importações
-const proprietario = require("./Controller/ProprietarioControlls.js");
-const veiculo = require("./Controller/VeiculoControlls.js");
+const proprietario = require("./Controller/ProprietarioController.js");
+const veiculo = require("./Controller/VeiculoController.js");
 
 //Rotas
 app.use(bodyParser.json());
